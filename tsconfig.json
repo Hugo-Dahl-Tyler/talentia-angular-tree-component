@@ -3,7 +3,7 @@
     "baseUrl": ".",
     "module": "es2020",
     "moduleResolution": "node",
-    "target": "ES2022",
+    "target": "es2020",
     "outDir": "/dist/out-tsc",
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
@@ -12,6 +12,8 @@
     "declaration": true,
     "skipLibCheck": true,
     "stripInternal": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,    
     "typeRoots": [
       "node_modules/@types"
     ],
@@ -32,6 +34,7 @@
   "compileOnSave": false,
   "buildOnSave": false,
   "angularCompilerOptions": {
-    "skipTemplateCodegen": true
+    "skipTemplateCodegen": true,
+    "disableTypeScriptVersionCheck": true,
   }
 }

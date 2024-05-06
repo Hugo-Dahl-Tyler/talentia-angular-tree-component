@@ -31,25 +31,25 @@
     "dist/"
   ],
   "dependencies": {
-    "@angular/animations": "^16.2.12",
-    "@angular/cdk": "^16.2.12",
-    "@angular/forms": "^16.2.12",
-    "@angular/material": "^16.2.12",
+    "@angular/animations": "^14.2.13",
+    "@angular/cdk": "v14-lts",
+    "@angular/forms": "^14.2.13",
+    "@angular/material": "v14-lts",
     "mobx": "~4.14.1"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^16.2.10",
-    "@angular-devkit/core": "^16.2.10",
-    "@angular/cli": "^16.2.10",
-    "@angular/common": "^16.2.12",
-    "@angular/compiler": "^16.2.12",
-    "@angular/compiler-cli": "^16.2.12",
-    "@angular/core": "^16.2.12",
-    "@angular/elements": "^16.2.12",
-    "@angular/platform-browser": "^16.2.12",
-    "@angular/platform-browser-dynamic": "^16.2.12",
-    "@angular/platform-server": "^16.2.12",
-    "@angular/router": "^16.2.12",
+    "@angular-devkit/build-angular": "^14.2.13",
+    "@angular-devkit/core": "^14.2.13",
+    "@angular/cli": "^14.2.13",
+    "@angular/common": "^14.2.13",
+    "@angular/compiler": "^14.2.13",
+    "@angular/compiler-cli": "^14.2.13",
+    "@angular/core": "^14.2.13",
+    "@angular/elements": "^14.2.13",
+    "@angular/platform-browser": "^14.2.13",
+    "@angular/platform-browser-dynamic": "^14.2.13",
+    "@angular/platform-server": "^14.2.13",
+    "@angular/router": "^14.2.13",
     "@types/jasmine": "~4.3.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.7",
@@ -100,5 +100,6 @@
     "*.ts": [
       "tslint"
     ]
-  }
+  },
+  "packageManager": "pnpm@9.1.0+sha256.22e36fba7f4880ecf749a5ca128b8435da085ecd49575e7fb9e64d6bf4fad394"
 }
